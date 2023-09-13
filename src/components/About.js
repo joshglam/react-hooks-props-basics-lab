@@ -3,7 +3,6 @@ import Links from "./Links"
 
 function About({bio, links}) {
   const conditional = bio ? <p>{bio}</p> : ""
-console.log(links.github)
   return (
     <div id="about">
       <h2>About Me</h2>
